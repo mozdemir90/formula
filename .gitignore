@@ -1,0 +1,11 @@
+/interactive_math/build/
+/interactive_math/.dart_tool/
+/interactive_math/windows/flutter/ephemeral/
+/interactive_math/macos/Flutter/ephemeral/
+/interactive_math/linux/flutter/ephemeral/
+/interactive_math/ios/Pods/
+/interactive_math/ios/.symlinks/
+/interactive_math/.idea/
+/interactive_math/android/.gradle/
+/interactive_math/.pub-cache/
+/interactive_math/.pub/
