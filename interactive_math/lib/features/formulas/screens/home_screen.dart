@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/formula_provider.dart';
 import 'formula_detail_screen.dart';
+import '../../gamification/widgets/profile_badge_widget.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
@@ -14,6 +15,7 @@ class HomeScreen extends ConsumerWidget {
       appBar: AppBar(
         title: const Text('Etkileşimli Formüller'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        actions: const [ProfileBadgeWidget()],
       ),
       body: formulasAsync.when(
         data: (formulas) {

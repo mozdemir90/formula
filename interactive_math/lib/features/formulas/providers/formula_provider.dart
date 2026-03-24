@@ -1,6 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:isar/isar.dart';
-import '../../../core/database/database_provider.dart';
+import '../../core/database/database_provider.dart';
 import '../models/math_formula.dart';
 
 final formulaRepositoryProvider = Provider<FormulaRepository>((ref) {
